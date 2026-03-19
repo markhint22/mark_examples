@@ -10,8 +10,8 @@
         "type": "text"
     },
     "login_button": {
-        "valuetype": "getByTestId",
-        "value": "login-button",
+        "valuetype": "xpath",
+        "value": "//input[@id='login-button']",
         "type": "button"
     },
     "error_message": {

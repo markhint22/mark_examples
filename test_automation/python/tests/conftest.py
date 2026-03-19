@@ -1,5 +1,5 @@
 import pytest
-from playwright.sync_api import sync_playwright
+from playwright.sync_api import Page
 
 def pytest_addoption(parser):
     parser.addoption("--env", action="store", default="qa", help="Target environment")

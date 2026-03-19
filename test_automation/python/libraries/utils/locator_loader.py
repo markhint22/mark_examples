@@ -1,6 +1,6 @@
 import json
 from pathlib import Path
-from playwright.sync_api import Page, Loader
+from playwright.sync_api import Page, Locator
 
 class LocatorLoader:
     """Loads and resolves locators from JSON files"""
@@ -21,7 +21,7 @@ class LocatorLoader:
         
         locator_def = self.locators[name]
         valuetype = locator_def["valuetype"]
-        value = locator_def["def"]
+        value = locator_def["value"]
 
         # Map valuetype to Playwright selector syntax
         if valuetype == "getByTestId":
