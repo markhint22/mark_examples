@@ -1,0 +1,22 @@
+{
+    "username_input": {
+        "valuetype": "css",
+        "value": "#user-name",
+        "type": "text"
+    },
+    "password_input": {
+        "valuetype": "css",
+        "value": "#password",
+        "type": "text"
+    },
+    "login_button": {
+        "valuetype": "getByTestId",
+        "value": "login-button",
+        "type": "button"
+    },
+    "error_message": {
+        "valuetype": "css",
+        "value": "[data-test='error']",
+        "type": "text"
+    }
+}
