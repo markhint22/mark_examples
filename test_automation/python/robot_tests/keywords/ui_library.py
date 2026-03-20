@@ -49,4 +49,4 @@ class UILibrary:
             self.browser.close()
         if self.playwright:
             self.playwright.stop()
-        
+
