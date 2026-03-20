@@ -1,15 +1,15 @@
 *** Settings ***
 Library    ../keywords/ui_library.py
-Resource    ../data/test_data.robot
+Resource   ../../data/test_data.robot
 
 *** Keywords ***
 User Opens Login Page
     Open Browser To Login
 
-User Logs In As Standard User
+User Enters Standard Credentials
     Login With Credentials    ${STANDARD_USER}    ${PASSWORD}
 
-User Logs In As Locked User
+User Enters Locked User Credentials
     Login With Credentials    ${LOCKED_OUT_USER}    ${PASSWORD}
 
 Login Should Succeed
