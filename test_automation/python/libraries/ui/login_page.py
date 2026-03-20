@@ -1,6 +1,9 @@
-from libraries.ui.base_page import BasePage
+"""Login Page Object Model."""
+from .base_page import BasePage
+
 
 class LoginPage(BasePage):
+    """Login Page Object Model Class."""
 
     base_url = "https://www.saucedemo.com/"
     locators_file = "login_page.json"

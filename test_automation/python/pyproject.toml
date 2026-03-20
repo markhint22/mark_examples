@@ -11,7 +11,9 @@ dependencies = [
     "pytest-playwright (>=0.7.2,<0.8.0)",
     "pytest (>=9.0.2,<10.0.0)",
     "faker (>=40.11.0,<41.0.0)",
-    "allure-pytest (>=2.15.3,<3.0.0)"
+    "allure-pytest (>=2.15.3,<3.0.0)",
+    "robotframework (>=7.0.0,<8.0.0)",
+    "robotframework-browser (>=18.0.0,<19.0.0)"
 ]
 
 
@@ -28,3 +30,6 @@ dev = [
 [tool.pytest.ini_options]
 pythonpath = ["."]
 testpaths = ["tests"]
+
+[tool.poetry]
+package-mode = false

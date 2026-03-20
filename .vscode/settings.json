@@ -1,4 +1,8 @@
 {
     "python-envs.defaultEnvManager": "ms-python.python:poetry",
-    "python-envs.defaultPackageManager": "ms-python.python:poetry"
+    "python-envs.defaultPackageManager": "ms-python.python:poetry",
+    "python.defaultInterpreterPath": "${workspaceFolder}/test_automation/python/.venv/bin/python",
+    "python.analysis.extraPaths": ["${workspaceFolder}/test_automation/python"],
+    "python.analysis.autoSearchPaths": true,
+    "robot.pythonpath": ["${workspaceFolder}/test_automation/python"]
 }

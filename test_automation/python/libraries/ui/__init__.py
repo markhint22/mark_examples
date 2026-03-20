@@ -1,2 +1,4 @@
-from libraries.ui.base_page import BasePage
-from libraries.ui.login_page import LoginPage
+"""Robot Framework UI keyword library."""
+
+from .base_page import BasePage
+from .login_page import LoginPage

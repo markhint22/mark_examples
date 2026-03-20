@@ -1,0 +1,29 @@
+# Python
+test_automation/python/**/__pycache__/
+test_automation/python/**/*.py[cod]
+test_automation/python/**/.venv/
+test_automation/python/**/venv/
+test_automation/python/**/.pytest_cache/
+
+#Robot outputs
+test_automation/python/log.html
+test_automation/python/output.xml
+test_automation/python/report.html
+test_automation/python/robot_tests/results/
+test_automation/python/output/
+
+# Poetry
+# poetry.lock
+
+# IDE
+.vscode/
+.idea/
+
+# Output
+output/
+log.html
+output.xml
+report.html
+
+# OS
+.DS_Store
